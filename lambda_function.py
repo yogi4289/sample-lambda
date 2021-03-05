@@ -7,6 +7,6 @@ def lambda_handler(event, context):
   return {
       'statusCode': 200,
       'body': "{}".format(
-          response.text
+          "Lambda function built and deployed by TeamCity & Octopus"
       )
   }
