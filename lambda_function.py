@@ -1,7 +1,6 @@
   
 import json
 import requests
-import awswrangler
 
 def lambda_handler(event, context):
   print('Loading function')
